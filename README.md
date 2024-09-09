@@ -17,10 +17,18 @@ to turn the downloaded map into .xml format.
 
   
   Last, compute Full Signal Strength Map using [Link Budget Equation](https://en.wikipedia.org/wiki/Link_budget). For generating training data, you will also need to sample 0 ~ 200 points on full signal strength map to make Sparse Signal Strength Map.
-[PDF]
+
 
 **Result** 
 We computed PDF of error using our testing data, from the result below, we can see that the PDF has mean = -1.52, and standard deviation = 18.72, quite centeralized at 0.
+[PDF](Files/PDF_testdata.png)
+
+
+We also want to know where the prediction error is large, so we test our model on NSYSU campus. From the result, we found that the prediction error will be larger behind buildings and between buildings, expectly between buildings.
+[Error]([PDF](Files/error.png)
+
+**Demo of Unet-Dir**
+[Demo]([PDF](Files/UnetDir_intro.mp4)
 
   
 **Reference**: Li et al. (2023), “Geo2SigMap: High-fidelity RF signal mapping using geographic databases,” [Geo2SigMap](https://github.com/functions-lab/geo2sigmap), 2023.
