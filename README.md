@@ -23,8 +23,8 @@ to turn the downloaded map into .xml format.
 
 ### Result of Unet-Dir 
 Below are some predicted result, we can see that the mean square error is about 9 ~ 12.
-[Result1](Files/Result1.png)
-[Result2](Files/Result2.png)
+![Result1](Files/Result1.png)
+![Result2](Files/Result2.png)
 
 
 We computed PDF of error using our testing data, from the result below, we can see that the PDF has mean = -1.52, and standard deviation = 18.72, quite centeralized at 0.
