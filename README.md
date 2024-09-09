@@ -34,7 +34,7 @@ We computed PDF of error using our testing data, from the result below, we can s
 We also want to know where the prediction error is large, so we test our model on NSYSU campus. From the result, we found that the prediction error will be larger behind buildings and between buildings, expectly between buildings.
 ![Error](Files/error.png)
 
-### Demo of Unet-Dir 
+### Demo of Unet-Dir (Click the picture for vedio) 
 [![Demo](Files/Unet_Dir_Intro.png)](https://youtu.be/u-DCVDTknJQ)
 
 
