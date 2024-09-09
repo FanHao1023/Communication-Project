@@ -17,6 +17,10 @@ to turn the downloaded map into .xml format.
 
   
   Last, compute Full Signal Strength Map using [Link Budget Equation](https://en.wikipedia.org/wiki/Link_budget). For generating training data, you will also need to sample 0 ~ 200 points on full signal strength map to make Sparse Signal Strength Map.
+[PDF]
+
+**Result** 
+We computed PDF of error using our testing data, from the result below, we can see that the PDF has mean = -1.52, and standard deviation = 18.72, quite centeralized at 0.
 
   
 **Reference**: Li et al. (2023), “Geo2SigMap: High-fidelity RF signal mapping using geographic databases,” [Geo2SigMap](https://github.com/functions-lab/geo2sigmap), 2023.
