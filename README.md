@@ -21,7 +21,7 @@ to turn the downloaded map into .xml format.
   Last, compute Full Signal Strength Map using [Link Budget Equation](https://en.wikipedia.org/wiki/Link_budget). For generating training data, you will also need to sample 0 ~ 200 points on full signal strength map to make Sparse Signal Strength Map.
 
 
-### Result  
+### Result of Unet-Dir 
 We computed PDF of error using our testing data, from the result below, we can see that the PDF has mean = -1.52, and standard deviation = 18.72, quite centeralized at 0.
 ![PDF](Files/PDF_testdata.png)
 
