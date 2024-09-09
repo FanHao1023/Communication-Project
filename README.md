@@ -11,4 +11,4 @@ This U-Net model predicts a full signal strength map based on an antenna UMA mod
 ## Geo2ComMap
 A deep learning-based throughput prediction method.
 This project functions similarly to Geo2SigMap, predicting a full throughput map based on an antenna UMA model, building map, and sparse throughput data.
-- **Throughput calculation**: Matlab code developed by NSYSU Communication Technology Lab (De-Ming Chian, Chao-Kai Wen, Feng-Ji Chen, and Tzu-Hao Huang).
+- **Throughput calculation (MIMO Throughput Sim-v3.2)**: Matlab code developed by NSYSU Communication Technology Lab (De-Ming Chian, Chao-Kai Wen, Feng-Ji Chen, and Tzu-Hao Huang).
