@@ -17,6 +17,9 @@ to turn the downloaded map into .xml format.
 
   Next, compute coverage map using [Sionna](https://nvlabs.github.io/sionna/). For this step, you can refer to [Sionna RT](https://www.youtube.com/watch?v=7xHLDxUaQ7c&t=1s).
 
+  ### What is Ray Tracing (Click the picture for vedio)
+[![Demo](Files/RT_Intro.png)](https://youtube.com/shorts/IOk_2uqMQP8?feature=share)
+
   
   Last, compute Full Signal Strength Map using [Link Budget Equation](https://en.wikipedia.org/wiki/Link_budget). For generating training data, you will also need to sample 0 ~ 200 points on full signal strength map to make Sparse Signal Strength Map.
 
