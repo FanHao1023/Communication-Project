@@ -26,22 +26,11 @@ to turn the downloaded map into .xml format.
 ### Result of Geo2SigMap
 Below is the result of using our model to predict signal strength in NSYSU campus
 ![Result_NSYSU](Files/8.png)
+The error and absolute error PDF of the prediction is shown below.
+![Error PDF](Files/Error_PDF.png)
 We compared the prediction time of our model with Nvidia's Sionna, and our model was approximately 21 times faster.
 ![Compare_Time](Files/4.png)
 
-
-### Result of Unet Dir
-Below are some predicted result, we can see that the mean square error is about 9 ~ 12.
-![Result1](Files/Result1.png)
-![Result2](Files/Result2.png)
-
-
-We computed PDF of error using our testing data, from the result below, we can see that the PDF has mean = -1.52, and standard deviation = 18.72, quite centeralized at 0.
-![PDF](Files/PDF_testdata.png)
-
-
-We also want to know where the prediction error is large, so we test our model on NSYSU campus. From the result, we found that the prediction error will be larger behind buildings and between buildings, expectly between buildings.
-![Error](Files/error.png)
 
 ### Demo of Geo2SigMap (Click the picture for vedio)
 [![Demo](Files/Geo2SigMap_Intro.png)](https://youtu.be/3Pe0GXG-JP0)
